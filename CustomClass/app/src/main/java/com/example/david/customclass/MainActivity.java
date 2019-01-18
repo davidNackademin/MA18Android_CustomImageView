@@ -15,13 +15,9 @@ public class MainActivity extends AppCompatActivity {
         FlipImage catFlip = findViewById(R.id.catFlip);
         catFlip.setOnDownImage(R.drawable.dog);
 
-
         FlipImage dogFlip = findViewById(R.id.dogFlip);
         dogFlip.setOnDownImage(R.drawable.cat);
 
-
         catFlip.setImageResource(R.drawable.turtle);
-
-
     }
 }
